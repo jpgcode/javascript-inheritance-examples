@@ -18,15 +18,15 @@
 
 	//Instantiate the object
 	var cat = new Animal();
-	var cat2 = new Animal();
+	var chicken = new Animal();
 
 	//Extend objects
 	cat.legs = 4;
 	cat.name = "Milo";
 	cat.sleep = false;
 
-	cat2.legs = 2;
-	cat2.name = "Peluza";
+	chicken.legs = 2;
+	chicken.name = "Peluza";
 
 
 	//Use the new cat objects
@@ -36,9 +36,9 @@
 	console.log(cat.name + '\'s legs: ' + cat.legs); //Milo's legs: 4
 	console.log(cat.name + '\'s eyes: ' + cat.eyes); //Milo's eyes: 2
 
-	cat2.run(cat2.name); //Peluza is running
-	console.log(cat2.name + ' is sleeping: ' + cat2.sleep);  //Peluza is sleeping: true
-	console.log(cat2.name + '\'s legs: ' + cat2.legs); //Peluza's legs: 2
-	console.log(cat2.name + '\'s eyes: ' + cat2.eyes); //Peluza's eyes: 2
+	chicken.run(chicken.name); //Peluza is running
+	console.log(chicken.name + ' is sleeping: ' + chicken.sleep);  //Peluza is sleeping: true
+	console.log(chicken.name + '\'s legs: ' + chicken.legs); //Peluza's legs: 2
+	console.log(chicken.name + '\'s eyes: ' + chicken.eyes); //Peluza's eyes: 2
 
 })();
